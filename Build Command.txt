@@ -1,0 +1,1 @@
+.\ps2exe.ps1 "C-Manager.ps1" "C-Manager.exe" -verbose -x64 -noConsole -noConfigFile -title "C-Manager" -description "Make managing C-Projects easier" -product "C-manager" -copyright "Max Schmeling. All Rights Reserved." -version "3.6" -iconFile "icon1.ico"
