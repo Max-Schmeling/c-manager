@@ -5,7 +5,7 @@ a simple tool I wrote some time ago using PowerShell to (partially) automate cre
 ## How does it work?
 The idea is that you have one root folder for all your C-programming-projects. Creating a new project essentially means you create a new folder within your root folder. In that new folder you create your c files. *C-Manager* creates the project within the root folder, the .c-file and a `gcc2exe.bat`-file which compiles assembles and links your source code in one click. You can supply your favourite editor in the settings. It will be launched upon creation of the project and a `Launch Editor.bat`-file can be created to launch the editor from the project folder.  (The latter I implemented to bypass the fact that we did not have admin-privileges on university notebooks and thus no default texteditor mapping)
 
-![Alt text](/screenshot.png?raw=true "This is the C-Manager GUI")
+![a screenshot should've popped up right here](/a screenshot.png?raw=true "This is the C-Manager GUI")
 
 ## Future
 This was a one-time thing and my first PowerShell-project (as you can tell from the code :grin:). I'm not going to put any more effort into it. Just be careful with spaces in the names.
